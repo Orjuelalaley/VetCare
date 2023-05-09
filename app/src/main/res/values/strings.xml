@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">VetCare</string>
+    <string name="usuario_pantalla_principal">Usuario</string>
+    <string name="contrasenia_pantalla_principal">Contraseña</string>
+    <string name="logo_de_proyecto">Logo de proyecto</string>
+    <string name="slogan">Slogan</string>
+    <string name="registro">Registro</string>
+    <string name="iniciar_sesioon">Iniciar sesión</string>
+    <string name="tiitulo_registro">Registro</string>
+    <string name="usuario_pantalla_registro">Usuario</string>
+    <string name="nombre_pantalla_registro">Nombre</string>
+    <string name="cancelar_pantalla_registro">Cancelar</string>
+    <string name="enviar_pantalla_registro">Enviar</string>
+    <string name="contrasenia_pantalla_registro">Contraseña</string>
+    <string name="teleefono_celular_pantalla_registro">Teléfono celular</string>
+    <string name="direccioon_pantalla_registro">Dirección</string>
+    <string name="correo_pantalla_registro">Correo</string>
+    <string name="tiitulo_inicio">Inicio de sesión</string>
+</resources>
