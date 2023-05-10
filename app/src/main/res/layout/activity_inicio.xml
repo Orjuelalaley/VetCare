@@ -8,12 +8,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,14 +42,14 @@
         <TextView
             android:id="@+id/sloganTextViewID"
             android:text="@string/slogan"
-            android:textSize="42sp"
+            android:textSize="30sp"
             android:gravity="center"
+            android:fontFamily="sans-serif-light"
             android:layout_width="350dp"
             android:layout_height="80dp"
             android:layout_marginBottom="20dp"
             android:layout_gravity="center" />
-
-        <EditText
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/email"
             android:inputType="textEmailAddress"
             android:hint="@string/usuario_pantalla_registro"
@@ -61,7 +57,14 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:autofillHints="@string/usuario_pantalla_registro" />
+            android:autofillHints="@string/usuario_pantalla_registro"
+            app:startIconDrawable="@drawable/baseline_person_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/password"

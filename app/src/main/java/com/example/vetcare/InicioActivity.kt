@@ -28,9 +28,9 @@ class InicioActivity : AppCompatActivity() {
 
     private fun login() {
         binding.loginButton.setOnClickListener {
-            if (binding.email.text.isNotEmpty() && binding.password.editText?.text.toString().isNotEmpty()) {
+            if (binding.email.editText?.text.toString().isNotEmpty() && binding.password.editText?.text.toString().isNotEmpty()) {
                 FirebaseAuth.getInstance().signInWithEmailAndPassword(
-                    binding.email.text.toString(),
+                    binding.email.editText?.text.toString(),
                     binding.password.editText?.text.toString()
                 ).addOnCompleteListener {
                     if (it.isSuccessful) {

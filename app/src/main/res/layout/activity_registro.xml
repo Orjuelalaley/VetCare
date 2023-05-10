@@ -24,7 +24,7 @@
 
         <TextView
             android:id="@+id/textView"
-            android:text="@string/tiitulo_registro"
+            android:text="@string/tiitulo_registro_usuario"
             android:textSize="34sp"
             android:textColor="#010F3E"
             android:textAllCaps="true"

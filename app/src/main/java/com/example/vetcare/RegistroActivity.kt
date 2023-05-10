@@ -59,7 +59,7 @@ class RegistroActivity : AppCompatActivity() {
     }
 
     private fun showHome(email: String, provider: ProviderType){
-        val homeIntent: Intent = Intent(this, HomeActivity::class.java).apply{
+        val homeIntent: Intent = Intent(this, RegistroActivity::class.java).apply{
             putExtra("email", email)
             putExtra("provider", provider.name)
         }

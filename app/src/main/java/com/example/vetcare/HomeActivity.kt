@@ -20,10 +20,10 @@ class HomeActivity : AppCompatActivity() {
         val bundle = intent.extras
         val email = bundle?.getString("email")
         val provider = bundle?.getString("provider")
-        setup(email ?: "", provider ?: "")
+        setup()
     }
 
-    private fun setup(email: String, provider: String) {
+    private fun setup() {
         title = "Inicio_mapa"
         binding.LogoutButton.setOnClickListener {
             logout()

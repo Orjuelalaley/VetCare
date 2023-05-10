@@ -13,6 +13,9 @@
         android:theme="@style/Theme.VetCare"
         tools:targetApi="31">
         <activity
+            android:name=".RegistroMascotaActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
